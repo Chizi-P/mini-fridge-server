@@ -1,2 +1,2 @@
-# mini-fridge-server
+# mini-fridge-server 💩
 My first server 💩
