@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--開發環境版本vue-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <script src="https://kit.fontawesome.com/c64fb315c0.js" crossorigin="anonymous"></script>
+    <script defer src="fridge.js"></script>
+    <script src="animejs/lib/anime.js"></script>
+    <link rel="stylesheet" href="fridge.css">
+    <title>Fridge</title>
+</head>
+<body>
+    <div id='loadingBar'>
+        <pre id='loadingBarText'></pre>
+    </div>
+    <div id='fridgeButton' onclick="enterFridge()"></div>
+    <video id='fridgeVideo' src="fridge-0030-0100.avi">你的瀏覽器不支持影片類別</video>
+    <div id='back' onclick="backHome()"><img src='chevron-left-solid.svg'></img>返回</div>
+    <div id='foodLists'>
+        <li class='foodList'><i class="fas fa-carrot"></i></li>
+        <li class='foodList'><i class="fas fa-egg"></i></li>
+        <li class='foodList'><i class="fas fa-fish"></i></li>
+        <li class='foodList'><i class="fas fa-drumstick-bite"></i></li>
+        <li class='foodList'><i class="fas fa-apple-alt"></i></li>
+        <li class='foodList'><i class="fas fa-ice-cream"></i></li>
+    </div>
+    <!-- <div id='ac' onclick="acButton()">setting</div>
+    <div id='acPage'></div> -->
+    <!-- <svg class='masksvg'>
+        <polyline>123</polyline>
+    </svg> -->
+</body>
+</html>
